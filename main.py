@@ -1,13 +1,12 @@
-# pip python package installer
-# pyttsx3
-
 import pyttsx3
 import cowsay
 
-text = "Thank you for joining with us"
+text = "Thank you for joining our day 2"
 
 engine = pyttsx3.init()
+
 engine.say(text)
+
 engine.runAndWait()
 
-cowsay.cow("See You Soon")
+cowsay.cow("see you soon")
